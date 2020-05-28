@@ -29,7 +29,7 @@
       "name": "NightOfBloodJournal",
       "label": "Night of Blood Journal Entries",
       "path": "packs/night-of-blood-journal.db",
-      "entity": "Journal",
+      "entity": "JournalEntry",
       "module": "wfrp4e-night-of-blood",
       "system": "wfrp4e"
     },
