@@ -2,7 +2,7 @@
   "name": "wfrp4e-night-of-blood",
   "title": "Night of Blood (WFRP 4e)",
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players",
-  "version": "0.2",
+  "version": "1.0",
   "author": "Stu",
   "systems": ["wfrp4e"],
   "styles": [
@@ -43,7 +43,7 @@
     }	
   ],
   "languages": ["en"],
-  "minimumCoreVersion": "0.6",
+  "minimumCoreVersion": "0.7.5",
   "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
   "download": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
   "url": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/"
