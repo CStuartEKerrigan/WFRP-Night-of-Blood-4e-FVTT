@@ -35,7 +35,11 @@ class WFRP4eNightOfBloodInitialization extends Dialog{
     {
         super({
             title: "WFRP4e Night of Blood Initialization",
-            content: `<p class="notes"><img src="modules/wfrp4e-night-of-blood/assets/icons/logo.png" /></p><p class="notes">Night of Blood is free from Cubicle 7 on <a href="https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood">DrivethruRPG</a> and is <strong>needed to use this Foundry module.</strong><br/><br/>				
+            content: `<p class="notes"><img src="modules/wfrp4e-night-of-blood/assets/icons/logo.png" 
+			style="text-align: center"
+			
+			
+			/></p><p class="notes">Night of Blood is free from Cubicle 7 on <a href="https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood">DriveThruRPG</a> and is <strong>needed to use this Foundry module.</strong><br/><br/>				
 			
 			Pressing Initialize will import all Journals, Actors and Scenes into your world, sort them into folders, and place map pins on the maps.<br/><br/>
 			
@@ -44,7 +48,7 @@ class WFRP4eNightOfBloodInitialization extends Dialog{
             Foundry Edition by <b>Stuart Kerrigan</b><br/>
             Special thanks to: <b>Russell Thurman (Moo Man)</b><br/><br/>
 			
-			<p class="notes">Listen to the <a href="https://anchor.fm/peril">Perilous Realm Podcast</a><br/><br/><a href="https://anchor.fm/peril"><img src="peril.png" alt="peril logo"></a></p>
+			<p class="notes">Listen to the <a href="https://anchor.fm/peril">Perilous Realm Podcast</a><br/><br/><a href="https://anchor.fm/peril"><img src="modules/wfrp4e-night-of-blood/peril.png" style="text-align: center;" alt="peril logo"></a></p>
             `,
 
             buttons: {
