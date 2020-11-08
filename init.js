@@ -35,7 +35,16 @@ class WFRP4eNightOfBloodInitialization extends Dialog{
     {
         super({
             title: "WFRP4e Night of Blood Initialization",
-            content: `<p class="notes"><img src="modules/wfrp4e-night-of-blood/assets/icons/logo.png" /><p class="notes">Initialize WFRP4e Night of Blood Content Module?<br><br>This will import all Journals and Scenes into your world, sort them into folders, and place map pins</p>
+            content: `<p class="notes"><img src="modules/wfrp4e-night-of-blood/assets/icons/logo.png" /></p><p class="notes">Night of Blood is free from Cubicle 7 on <a href="https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood">DrivethruRPG</a> and is <strong>needed to use this Foundry module.</strong><br/><br/>				
+			
+			Pressing Initialize will import all Journals, Actors and Scenes into your world, sort them into folders, and place map pins on the maps.<br/><br/>
+			
+			Written by <b>Jim Bambra</b><br/>
+			4E Conversion by <b>Lindsay Law</b><br/>
+            Foundry Edition by <b>Stuart Kerrigan</b><br/>
+            Special thanks to: <b>Russell Thurman (Moo Man)</b><br/><br/>
+			
+			<p class="notes">Listen to the <a href="https://anchor.fm/peril">Perilous Realm Podcast</a><br/><br/><a href="https://anchor.fm/peril"><img src="peril.png" alt="peril logo"></a></p>
             `,
 
             buttons: {
@@ -99,12 +108,13 @@ class WFRP4eNightOfBloodInitialization extends Dialog{
 
     async initializeEntities() {
 
-        let packList= [ `${this.moduleKey}.night-of-blood-actors`,
-                    `${this.moduleKey}.night-of-blood-scenes`,
-                    `${this.moduleKey}.night-of-blood-journal`]
+        let packList= [ `${this.moduleKey}.NightOfBloodActors`,
+                    `${this.moduleKey}.NightOfBloodScenes`,
+                    `${this.moduleKey}.NightOfBloodJournal`]
 
         for( let pack of packList)
         {
+			console.log(pack);
             let content = await game.packs.get(pack).getContent();
             for (let entity of content)
             {
@@ -136,7 +146,7 @@ class WFRP4eNightOfBloodInitialization extends Dialog{
 
     async initializeScenes() {
         ui.notifications.notify("Initializing Scenes")
-        let m = game.packs.get(`${this.moduleKey}.night-of-blood-scenes`)
+        let m = game.packs.get(`${this.moduleKey}.NightOfBloodScenes`)
         let maps = await m.getContent()
         for (let map of maps)
         {
