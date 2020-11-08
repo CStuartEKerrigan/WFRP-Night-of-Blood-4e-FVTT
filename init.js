@@ -176,6 +176,7 @@ class WFRP4eNightOfBloodInitializationSetup {
         WFRP4eNightOfBloodInitializationSetup.setEmbeddedEntities()
     }
 
+/** This gets every folder in the system */
     static async displayFolders() {
         let array = [];
         game.folders.entities.forEach(async f => {

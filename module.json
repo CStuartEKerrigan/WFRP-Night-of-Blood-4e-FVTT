@@ -2,14 +2,14 @@
   "name": "wfrp4e-night-of-blood",
   "title": "Night of Blood (WFRP 4e)",
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players",
-  "version": "1.0.1",
+  "version": "1.0.1.1",
   "author": "Stu",
   "systems": ["wfrp4e"],
   "styles": [
     "./styles.css"
   ],
   "scripts": [
-    "initialization.js"
+    "init.js"
   ],
   "packs": [
     {
