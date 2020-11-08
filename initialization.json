@@ -1,0 +1,168 @@
+[
+  {
+    "_id": "15vCMSPdiQ79lZVj",
+    "name": "Beginning In The Forest",
+    "type": "JournalEntry",
+    "sort": 3500000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "qauzWDTxBDTer6oQ",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "pnAQqGvoJN19iMxt",
+    "name": "Chaos Hunters",
+    "type": "Actor",
+    "sort": 1100000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "4EURm4BUTawgerv0",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "iTRwG5gS9CBxRdBC",
+    "name": "Hooded Man Exterior",
+    "type": "JournalEntry",
+    "sort": 3300000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "qauzWDTxBDTer6oQ",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "lcdcw69gWbKJ66au",
+    "name": "Hooded Man Interior",
+    "type": "JournalEntry",
+    "sort": 3200000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "qauzWDTxBDTer6oQ",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "I6Cro79fujYNXkqM",
+    "name": "Inn Patrons",
+    "type": "Actor",
+    "sort": 1000000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "4EURm4BUTawgerv0",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "4EURm4BUTawgerv0",
+    "name": "Night of Blood",
+    "type": "Actor",
+    "sort": 200000,
+    "flags": {},
+    "parent": null,
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "nEQnpf2p1xxgO02L",
+    "name": "Night of Blood",
+    "type": "Scene",
+    "sort": 300000,
+    "flags": {},
+    "parent": null,
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "qauzWDTxBDTer6oQ",
+    "name": "Night of Blood",
+    "type": "JournalEntry",
+    "sort": 3100000,
+    "flags": {},
+    "parent": null,
+    "sorting": "a",
+    "color": "#ff0d13"
+  },
+  {
+    "_id": "dWAWJ7KmbgQgoT0r",
+    "name": "The Aftermath",
+    "type": "Actor",
+    "sort": 1300000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "4EURm4BUTawgerv0",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "c5JXQqWCBiFev3YN",
+    "name": "The Horror",
+    "type": "Actor",
+    "sort": 1200000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "4EURm4BUTawgerv0",
+    "sorting": "a",
+    "color": ""
+  },
+  {
+    "_id": "QA64W3jfMWG0KbhW",
+    "name": "What Lies Beneath the Inn",
+    "type": "JournalEntry",
+    "sort": 3400000,
+    "flags": {
+      "wfrp4e-night-of-blood": {
+        "initialization-parent": "Night of Blood"
+      },
+      "deprecated": {
+        "initialization-parent": "Night of Blood"
+      }
+    },
+    "parent": "qauzWDTxBDTer6oQ",
+    "sorting": "a",
+    "color": ""
+  }
+]
