@@ -1,12 +1,10 @@
-# Night of Blood
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/assets/icons/logo2.png">
+  <img src="https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/assets/icons/logo2.png" alt="Night of Blood">
 </p>
 
 Night of Blood is the classic Warhammer Fantasy Roleplay scenario, and an excellent introduction to the game. The scenario was written in 1987 by Jim Bambra and has been republished officially and unofficially for 1st Edition, 2nd Edition and 4th Edition.
 
-This module provides unofficial content to allow GMs to use [Foundry Virtual Tabletop's](https://foundryvtt.com/) [WFRP4e system](https://github.com/moo-man/WFRP4e-FoundryVTT). It requires the paid [Warhammer Fantasy Roleplay Foundry Core Module]{https://www.cubicle7games.com/product-category/foundry/} from Cubicle 7. It is an implementation of the Night of Blood module for Warhammer Fantasy Roleplay 4th Edition by Lindsay Law, for Cubicle 7. [A PDF of Night of Blood can be obtained for free from DriveThruRPG](https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood) and having a copy is necessary to run this module successfully.
+This module provides unofficial content to allow GMs to run Night of Blood using [Foundry Virtual Tabletop's](https://foundryvtt.com/) [Warhammer Fantasy Roleplay Foundry Core Module](https://www.cubicle7games.com/product-category/foundry/). [A PDF of Night of Blood can be obtained for free from DriveThruRPG](https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood) and having a copy is necessary to run this module successfully.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/assets/icons/footage.gif">
