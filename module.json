@@ -4,71 +4,77 @@
   "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
   "version": "2.0",
   "author": "Stuart Kerrigan",
-
   "dependencies": [
-  {
-	"name": "lib-wrapper"
-  },
-  {
-	"name": "betterroofs"
-  },
-  {
-	"name": "wall-height"
-  }, 
-  {
-	"name": "levels"
-  },
-  {
-	"name": "token-attacher"
-  },
-  {
-	"name": "ambientdoors"
-  },
-  {
-	"name": "tokenmagic"
-  }
-  ],    
-  "esmodules": [
-    ],  
-  "scripts": [     
-	"initialization.js"
-   ],    
-  "systems": ["wfrp4e"],
+    {
+      "name": "lib-wrapper"
+    },
+    {
+      "name": "betterroofs"
+    },
+    {
+      "name": "wall-height"
+    },
+    {
+      "name": "levels"
+    },
+    {
+      "name": "token-attacher"
+    },
+    {
+      "name": "ambientdoors"
+    },
+    {
+      "name": "tokenmagic"
+    }
+  ],
+  "esmodules": [],
+  "scripts": [
+    "init.js"
+  ],
+  "systems": [
+    "wfrp4e"
+  ],
   "styles": [
     "./styles.css"
   ],
   "packs": [
     {
-	  "label": "Night of Blood Actors",
-	  "type": "Actor",
+      "label": "Night of Blood Actors",
+      "type": "Actor",
       "name": "NightOfBloodActors",
       "path": "packs/night-of-blood-actors.db",
-	  "package": "wfrp4e-night-of-blood"    },
+      "package": "wfrp4e-night-of-blood"
+    },
     {
       "label": "Night of Blood Scenes",
-      "type": "Scene",	  
+      "type": "Scene",
       "name": "NightOfBloodScenes",
       "path": "packs/night-of-blood-scenes.db",
-	  "package": "wfrp4e-night-of-blood"    },
-	{
-	  "label": "Night of Blood Journal Entries",
+      "package": "wfrp4e-night-of-blood"
+    },
+    {
+      "label": "Night of Blood Journal Entries",
       "name": "NightOfBloodJournal",
       "path": "packs/night-of-blood-journal.db",
       "type": "JournalEntry",
-	  "package": "wfrp4e-night-of-blood"    },
-	{
+      "package": "wfrp4e-night-of-blood"
+    },
+    {
       "name": "NightOfBloodSFX",
       "label": "Night of Blood SFX",
       "path": "packs/night-of-blood-sfx.db",
       "type": "Playlist",
-	  "package": "wfrp4e-night-of-blood"    }	
+      "package": "wfrp4e-night-of-blood"
+    }
   ],
-  "flags" : {
-	"initializationPacks" : [ ]
-  },  
-  "languages": ["en"],
+  "flags": {
+    "initializationPacks": []
+  },
+  "languages": [
+    "en"
+  ],
   "minimumCoreVersion": "0.9",
   "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
   "download": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
   "url": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/"
-} 
+}
