@@ -42,33 +42,33 @@
       "label": "Night of Blood Actors",
       "type": "Actor",
       "name": "NightOfBloodActors",
-      "path": "packs/night-of-blood-actors.db",
+      "path": "./packs/night-of-blood-actors.db",
       "package": "wfrp4e-night-of-blood"
     },
     {
       "label": "Night of Blood Scenes",
       "type": "Scene",
       "name": "NightOfBloodScenes",
-      "path": "packs/night-of-blood-scenes.db",
+      "path": "./packs/night-of-blood-scenes.db",
       "package": "wfrp4e-night-of-blood"
     },
     {
       "label": "Night of Blood Journal Entries",
       "name": "NightOfBloodJournal",
-      "path": "packs/night-of-blood-journal.db",
+      "path": "./packs/night-of-blood-journal.db",
       "type": "JournalEntry",
       "package": "wfrp4e-night-of-blood"
     },
     {
       "name": "NightOfBloodSFX",
       "label": "Night of Blood SFX",
-      "path": "packs/night-of-blood-sfx.db",
+      "path": "./packs/night-of-blood-sfx.db",
       "type": "Playlist",
       "package": "wfrp4e-night-of-blood"
     }
   ],
   "flags": {
-    "initializationPacks": []
+    "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
   },
   "languages": [
     "en"
