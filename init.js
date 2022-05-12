@@ -30,10 +30,7 @@ class WFRP4eNightOfBloodInitialization extends FormApplication {
 		try { html = await (await fetch("https://www.stuartkerrigan.com/fvtt/nob/init.php")).text()
 		}
 		catch (err){
-			html = "<p>Night of Blood is the classic Warhammer Fantasy Roleplay scenario, and an excellent introduction to the game. The scenario was written in 1987 by Jim Bambra and has been republished officially and unofficially for 1st Edition, 2nd Edition and 4th Edition.</p>
-
-<p>This module provides unofficial content to allow GMs to run Night of Blood using Foundry Virtual Tabletop's Warhammer Fantasy Roleplay Foundry Core Module. You'll need a free PDF of Night of Blood to run this module successfully, but all maps and actors are supplied in this module.
-</p>";
+			html = `<p>Night of Blood is the classic Warhammer Fantasy Roleplay scenario, and an excellent introduction to the game. The scenario was written in 1987 by Jim Bambra and has been republished officially and unofficially for 1st Edition, 2nd Edition and 4th Edition.</p>`;
 		}
         new game.wfrp4e.apps.ModuleInitializer("wfrp4e-night-of-blood", "WFRP4e Night of Blood",html).render(true);
     }
