@@ -25,29 +25,16 @@ Hooks.on("ready", () => {
 
 
 class WFRP4eNightOfBloodInitialization extends FormApplication {
-	render() {
-        let html = `<p class="notes"><img src="modules/wfrp4e-night-of-blood/assets/icons/logo.png" 
-			style="display: block;  margin-left: auto;  margin-right: auto;">
-			
-			
-			</p><p class="notes">The PDF of Night of Blood is free from Cubicle 7 on <a href="https://www.drivethrurpg.com/product/259967/WFRP-Old-World-Adventures--Night-of-Blood">DriveThruRPG</a> and is <strong>needed to use this Foundry module.</strong><br/><br/>				
-			
-			Pressing Initialize will install Journals, Actors and Scenes into your world and place map pins on the maps.<br/><br/>
-			
-			Original Written by <b>Jim Bambra</b><br/>
-			Original 4E Conversion by <b>Lindsay Law</b><br/>
-			Special thanks to: <b>Russell Thurman (Moo Man)</b><br/><br/>
-            Foundry Edition by <b>Stuart Kerrigan</b><br/>
-			
-			You can email us at <a href="mailto:perilousrealmpodcast@gmail.com">perilousrealmpodcast@gmail.com</a>3
-			
-			<p class="notes"><strong>Want to support us?</strong><br/><br/>
-			
-			This module is freeware, and always will be, and other free WFRP modules are planned. As the WFRP content now requires payment to Cubicle 7 there are some running costs so if you want to donate then the link below is provided.<br/><br/>
-			
-			<a href="https://paypal.me/perilousrealm?locale.x=en_GB"><img src="modules/wfrp4e-night-of-blood/paypal.png" style="display: block;  margin-left: auto; margin-right: auto;" alt="paypal" /></a><br/><br/>
-			
-			You can also listen to the <a href="https://anchor.fm/peril">Perilous Realm Podcast</a><br/><br/><a href="https://anchor.fm/peril"><img src="modules/wfrp4e-night-of-blood/peril.png" style="display: block;  margin-left: auto;  margin-right: auto;" alt="peril logo"></a> <br/><br/>Lastly do share with us at <a href="mailto:perilousrealmpodcast@gmail.com">perilousrealmpodcast@gmail.com</a> any streams or audio you have of your adventures in the Hooded Man Inn - if anyone is left to tell the tale.</p>`
-			new game.wfrp4e.apps.ModuleInitializer("wfrp4e-night-of-blood", "WFRP4e Night of Blood Initialization",html).render(true);
-	}
+   async render() {
+		let html = "";
+		try { html = await (await fetch("https://www.stuartkerrigan.com/fvtt/nob/init.php")).text()
+		}
+		catch (err){
+			html = "<p>Night of Blood is the classic Warhammer Fantasy Roleplay scenario, and an excellent introduction to the game. The scenario was written in 1987 by Jim Bambra and has been republished officially and unofficially for 1st Edition, 2nd Edition and 4th Edition.</p>
+
+<p>This module provides unofficial content to allow GMs to run Night of Blood using Foundry Virtual Tabletop's Warhammer Fantasy Roleplay Foundry Core Module. You'll need a free PDF of Night of Blood to run this module successfully, but all maps and actors are supplied in this module.
+</p>";
+		}
+        new game.wfrp4e.apps.ModuleInitializer("wfrp4e-night-of-blood", "WFRP4e Night of Blood",html).render(true);
+    }
 }
